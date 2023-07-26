@@ -30,6 +30,12 @@ export const steps = [
 		title: "Implementing Color Opacity with CSS Variables",
 	},
 	{
+		id: "01-04-02",
+		url: "/01-04-02",
+		tag: "Solution",
+		title: "Compose RGB Channels with alpha-value for Opacity Support",
+	},
+	{
 		id: "01-05-01",
 		url: "/01-05-01",
 		tag: "Challenge",
