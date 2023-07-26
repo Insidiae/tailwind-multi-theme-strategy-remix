@@ -66,6 +66,12 @@ export const steps = [
 		title: "Convert Hex to RGB with JavaScript",
 	},
 	{
+		id: "01-07-02",
+		url: "/01-07-02",
+		tag: "Solution",
+		title: "Replacing Hardcoded RGB Channel Values with Function Calls",
+	},
+	{
 		id: "01-08-01",
 		url: "/01-08-01",
 		tag: "Challenge",
