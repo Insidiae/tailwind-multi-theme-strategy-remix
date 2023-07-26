@@ -42,6 +42,12 @@ export const steps = [
 		title: "Improve Your Developer Workflow with Tailwind CSS Plugins",
 	},
 	{
+		id: "01-05-02",
+		url: "/01-05-02",
+		tag: "Solution",
+		title: "Building an Example All Caps Plugin for Tailwind CSS",
+	},
+	{
 		id: "01-06-01",
 		url: "/01-06-01",
 		tag: "Challenge",
