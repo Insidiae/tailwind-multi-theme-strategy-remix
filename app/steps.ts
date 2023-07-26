@@ -54,6 +54,12 @@ export const steps = [
 		title: "Moving CSS Variable Declarations into a Tailwind CSS Plugin",
 	},
 	{
+		id: "01-06-02",
+		url: "/01-06-02",
+		tag: "Solution",
+		title: "Transform CSS into CSS in JS for use in a Tailwind CSS Plugin",
+	},
+	{
 		id: "01-07-01",
 		url: "/01-07-01",
 		tag: "Challenge",

@@ -1,0 +1,12 @@
+@config './tailwind.config.ts';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 
+  ------------------------------
+  Move the CSS variable declarations below 
+  to the plugin we started in the Config tab.
+  ------------------------------
+*/
