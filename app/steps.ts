@@ -6,6 +6,12 @@ export const steps = [
 		title: "A Primer on CSS Variables",
 	},
 	{
+		id: "01-02-02",
+		url: "/01-02-02",
+		tag: "Solution",
+		title: "Redefining CSS Variables in Different Scopes",
+	},
+	{
 		id: "01-03-01",
 		url: "/01-03-01",
 		tag: "Challenge",
