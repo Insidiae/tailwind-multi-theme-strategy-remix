@@ -78,6 +78,12 @@ export const steps = [
 		title: "Refactoring to Remove Hard-Coded Theme Names in Tailwind Plugin",
 	},
 	{
+		id: "01-08-02",
+		url: "/01-08-02",
+		tag: "Solution",
+		title: "Dynamically Adding Themes through Iteration",
+	},
+	{
 		id: "01-09-01",
 		url: "/01-09-01",
 		tag: "Challenge",
