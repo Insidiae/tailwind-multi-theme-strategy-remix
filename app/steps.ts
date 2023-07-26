@@ -90,6 +90,12 @@ export const steps = [
 		title: "Consolidating Code Concerns into a Tailwind Plugin",
 	},
 	{
+		id: "01-09-02",
+		url: "/01-09-02",
+		tag: "Solution",
+		title: "Configure Tailwind to Extend Themes via Plugin",
+	},
+	{
 		id: "01-10-01",
 		url: "/01-10-01",
 		tag: "Challenge",
