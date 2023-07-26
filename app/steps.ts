@@ -18,6 +18,12 @@ export const steps = [
 		title: "Create Themeable Color Shades with CSS Variables",
 	},
 	{
+		id: "01-03-02",
+		url: "/01-03-02",
+		tag: "Solution",
+		title: "Creating Multiple Color Spreads with CSS Variables",
+	},
+	{
 		id: "01-04-01",
 		url: "/01-04-01",
 		tag: "Challenge",
