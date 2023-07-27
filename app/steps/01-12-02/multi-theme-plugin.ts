@@ -1,15 +1,6 @@
 import plugin from "tailwindcss/plugin";
 import hexRgb from "hex-rgb";
 
-/*
-  ------------------------------
-  TODO:
-  Remove the themes import line below. Instead,
-  pass the themes directly to the plugin
-  when registering it in the
-  config file.
-  ------------------------------
-*/
 import themes from "./themes.json";
 
 // ------------------------------
@@ -39,7 +30,14 @@ function getCssVariableDeclarations(
 	return output;
 }
 
-// Generate color extension object
+/*
+  ------------------------------
+  1. Write a helper function that takes an object
+  as input, and outputs the correct object 
+  to extend the Tailwind config's
+  theme colors.
+  ------------------------------
+*/
 function getColorUtilitiesWithCssVariableReferences(
 	input: ThemeColors,
 	path: string[] = []
@@ -76,6 +74,14 @@ export default plugin(
 			});
 		});
 	},
+
+	/*
+  ------------------------------
+  2. Extend the user's theme below using the new
+  `getColorUtilitiesWithCssVariableReferences`
+  function you've just created.
+  ------------------------------
+*/
 	{
 		theme: {
 			extend: {

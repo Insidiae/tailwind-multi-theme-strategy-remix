@@ -121,6 +121,12 @@ export const steps = [
 		title: "Write a Function That Replaces Hard-Coded Theme Colors",
 	},
 	{
+		id: "01-12-02",
+		url: "/01-12-02",
+		tag: "Solution",
+		title: "Dynamically Define Theme Colors In Your Tailwind Config",
+	},
+	{
 		id: "01-13-01",
 		url: "/01-13-01",
 		tag: "Challenge",
