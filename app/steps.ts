@@ -132,4 +132,10 @@ export const steps = [
 		tag: "Challenge",
 		title: "Determine How to Pass Options to a Plugin",
 	},
+	{
+		id: "01-13-02",
+		url: "/01-13-02",
+		tag: "Solution",
+		title: "Enable and Validate Plugin Configuration Options",
+	},
 ];
