@@ -12,7 +12,24 @@ function getRgbChannels(hex: string) {
 	return `${red} ${green} ${blue}`;
 }
 
-// Generate CSS variables
+/*
+  ------------------------------
+  1. Write a helper function that takes an input, 
+  and outputs the correct CSS-in-JS object 
+  to create the CSS variables.
+
+  Here's the format we're expecting:
+  
+  ```
+  {
+    '--primary-500': getRgbChannels('#6b70fc'),
+    ...,
+    '--secondary-some-nested-color': getRgbChannels('#0099aa'),
+  }
+  ```
+  ------------------------------
+*/
+
 type ThemeColors = { [key: string]: string | ThemeColors };
 function getCssVariableDeclarations(
 	input: ThemeColors,
@@ -30,18 +47,6 @@ function getCssVariableDeclarations(
 	return output;
 }
 
-/*
-  ------------------------------
-  1. Write a helper function that takes an object
-  as input, and outputs the correct object 
-  to extend the Tailwind config's
-  theme colors.
-  ------------------------------
-*/
-function getColorUtilitiesWithCssVariableReferences(input) {
-	// TODO
-}
-
 // ------------------------------
 // Plugin definition
 // ------------------------------
@@ -57,14 +62,6 @@ export default plugin(
 			});
 		});
 	},
-
-	/*
-  ------------------------------
-  2. Extend the user's theme below using the new
-  `getColorUtilitiesWithCssVariableReferences`
-  function you've just created.
-  ------------------------------
-*/
 	{
 		theme: {
 			extend: {

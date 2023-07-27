@@ -109,6 +109,12 @@ export const steps = [
 		title: "Dynamically Generate Colors From Nested Theme Objects",
 	},
 	{
+		id: "01-11-02",
+		url: "/01-11-02",
+		tag: "Solution",
+		title: "Create CSS Variables from Theme Objects with Recursion",
+	},
+	{
 		id: "01-12-01",
 		url: "/01-12-01",
 		tag: "Challenge",
